@@ -1,5 +1,5 @@
 <script>
-  const text = document.getElementById("text");
+  const text = document.getElementById("glitch-text");
   const original = text.innerText;
   const chars = "!@#$%^&*()_+1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
