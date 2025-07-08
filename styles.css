@@ -1,7 +1,8 @@
 /* Global Styles */
 body {
   font-family: "Roboto Mono", Menlo, Consolas, monospace;
-  background-color: #1c1b1b;
+  background-color: #343a40;
+  color: white;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;          /* This already centers horizontally */
