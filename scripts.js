@@ -1,19 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const text = document.getElementById("text");
-  const original = text.innerText;
-  const chars = "!@#$%^&*()_+1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  
-  function glitch() {
-    let newText = "";
-    for(let i = 0; i < original.length; i++) {
-      if(Math.random() > 0.7) {
-        newText += chars[Math.floor(Math.random() * chars.length)];
-      } else {
-        newText += original[i];
-      }
+// glitch.js
+document.addEventListener("DOMContentLoaded", () => {
+    const text = document.getElementById("text");
+    if (!text) return;
+
+    const original = text.textContent;
+    const chars = "!@#$%^&*()_+1234567890";
+
+    function glitch() {
+        const glitched = original.split('').map(char => 
+            Math.random() > 0.7 ? chars[Math.floor(Math.random() * chars.length)] : char
+        ).join('');
+        text.textContent = glitched;
+        setTimeout(() => text.textContent = original, 100);
     }
-    text.innerText = newText;
-  }
-  
-  setInterval(glitch, 100); // Speed in ms
+
+    setInterval(glitch, 1000); // glitch every second
 });
+
