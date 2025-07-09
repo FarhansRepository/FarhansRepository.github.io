@@ -72,6 +72,14 @@ li {
   margin-bottom: 8px;
 }
 
+.glitch-effect {
+  color: red;
+  font-weight: bold;
+  text-shadow: 1px 0 red, -1px 0 red, 0 1px red, 0 -1px red;
+  letter-spacing: 1px;
+  transform: skewX(-5deg);
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   body {
