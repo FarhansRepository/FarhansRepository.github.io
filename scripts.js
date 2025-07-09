@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const original = text.textContent;
     /*const chars = "!@#$%^&*()_+1234567890";*/
-    const chars = "01";
+    const chars = "01_#";
     function glitch() {
         const glitched = original.split('').map(char => 
             Math.random() > 0.7 ? chars[Math.floor(Math.random() * chars.length)] : char
@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => text.textContent = original, 100);
     }
 
-    setInterval(glitch, 10000); // glitch every second
+    setInterval(glitch, 1000); // glitch every second
 });
 
