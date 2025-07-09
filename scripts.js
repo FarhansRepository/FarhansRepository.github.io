@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         text.textContent = working;
 
         // Reset after a short delay
-        setTimeout(() => text.textContent = original, 150);
+        setTimeout(() => text.textContent = original, 100);
     }
 
     setInterval(glitch, 1000); // Glitch every second
