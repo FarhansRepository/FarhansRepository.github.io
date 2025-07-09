@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     setInterval(glitch, 2000); // glitch every second*/
-    let working = original;     
+    function glitch() {
+        let working = original;
+        
         // Apply each segment transformation
         originalSegments.forEach((seg, i) => {
             if (Math.random() > 0.7) {
@@ -24,10 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 working = working.replace(seg, chars[i]);
             }
         });
+
         text.textContent = working;
+
         // Reset after a short delay
         setTimeout(() => text.textContent = original, 150);
     }
+
     setInterval(glitch, 1000); // Glitch every second
 });
 
