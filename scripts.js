@@ -17,14 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         text.textContent = working;
-        text.classList.add("glitch-effect");
 
         setTimeout(() => { 
             text.textContent = original; 
-            text.classList.remove("glitch-effect"); 
-        }, 2000);
+        }, 100);
     }
     
-    setInterval(glitch, 3000); //run glitch every 1000 seconds
+    setInterval(glitch, 1000); //run glitch every 1000 seconds
 });
 
