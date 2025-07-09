@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const original = text.textContent;
 
-    const originalSegments = ["Fa", "r", "ha", "n", "Mo", "ha", "mm", "ad"];
-    const chars = ["ফা", "র", "হা", "ন", "মো", "হা", "ম্ম", "দ"];
+    const originalSegments = ["Fa", "r", "ha", "n", " ", "Mo", "ha", "mm", "ad"];
+    const chars = ["ফা", "র", "হা", "ন", " ", "মো", "হা", "ম্ম", "দ"];
 
     function glitch() {
         let working = original;
