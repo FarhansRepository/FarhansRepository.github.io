@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const original = text.textContent;
     /*const chars = "!@#$%^&*()_+1234567890";*/
-    const chars = "01_#";
+    const chars = "ফারহান01_#";
     function glitch() {
         const glitched = original.split('').map(char => 
             Math.random() > 0.7 ? chars[Math.floor(Math.random() * chars.length)] : char
