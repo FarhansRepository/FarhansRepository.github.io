@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  background-color: #1d4f28;
-  color: white;
+  background-color: #f5fff5;
+  color: #1d4f28;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;          /* This already centers horizontally */
@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-  color: white;
+  color: #1d4f28;
   margin-bottom: 10px;
 }
 
@@ -50,14 +50,14 @@ section {
 }
 
 h2 {
-  color: white;
+  color: #1d4f28;
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
   margin-top: 0;
 }
 
 h3 {
-  color: white;
+  color: #1d4f28;
   margin-bottom: 5px;
 }
 
