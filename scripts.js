@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => { 
             text.textContent = original; 
             text.classList.remove("glitch-effect"); 
-        }, 1000);
+        }, 2000);
     }
     
     setInterval(glitch, 3000); //run glitch every 1000 seconds
