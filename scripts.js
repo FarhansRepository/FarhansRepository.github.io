@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         // Apply each segment transformation
         originalSegments.forEach((seg, i) => {
-            if (Math.random() > 0.7) {
+            if (Math.random() > 0.9) {
                 // Replace only first instance of the segment to avoid over-replacement
                 working = working.replace(seg, chars[i]);
             }
