@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let working = original;
         
         originalSegments.forEach((seg, i) => {
-            if (Math.random() > 0.9) {
+            if (Math.random() > 0.7) {
                 working = working.replace(seg, chars[i]);
             }
         });
