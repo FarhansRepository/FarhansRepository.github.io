@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  background-color: #f5fff5;
+  background-color: #f5f5f5;
   color: #1d4f28;
   line-height: 1.6;
   max-width: 800px;
@@ -72,6 +72,8 @@ li {
   margin-bottom: 8px;
 }
 
+
+/*
 .glitch-effect {
   color: red;
   font-weight: bold;
@@ -90,7 +92,7 @@ li {
   100% { transform: skewX(-5deg) scale(1); }
 }
 
-
+*/
 
 
 @media (max-width: 600px) {
