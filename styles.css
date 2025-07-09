@@ -78,6 +78,16 @@ li {
   text-shadow: 1px 0 red, -1px 0 red, 0 1px red, 0 -1px red;
   letter-spacing: 1px;
   transform: skewX(-5deg);
+  transition: all 0.1s ease;
+  animation: glitchPulse 0.2s infinite;
+}
+
+@keyframes glitchPulse {
+  0% { transform: skewX(-5deg) scale(1); }
+  25% { transform: skewX(-5deg) scale(1.02) rotate(-1deg); }
+  50% { transform: skewX(-5deg) scale(0.98) rotate(1deg); }
+  75% { transform: skewX(-5deg) scale(1.01) rotate(-0.5deg); }
+  100% { transform: skewX(-5deg) scale(1); }
 }
 
 /* Responsive Design */
