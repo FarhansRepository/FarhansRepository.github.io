@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => text.textContent = original, 100);
     }
 
-    setInterval(glitch, 1000); // glitch every second
+    setInterval(glitch, 10000); // glitch every second
 });
 
