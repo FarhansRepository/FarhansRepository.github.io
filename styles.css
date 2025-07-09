@@ -73,18 +73,24 @@ li {
 }
 
 .glitch-effect {
-    color: red;
-    text-shadow: 2px 0 cyan, -2px 0 magenta;
-    animation: glitch 0.3s infinite;
+  color: red;
+  font-weight: bold;
+  text-shadow: 1px 0 red, -1px 0 red, 0 1px red, 0 -1px red;
+  letter-spacing: 1px;
+  transform: skewX(-5deg);
+  transition: all 0.1s ease;
+  animation: glitchPulse 0.2s infinite;
 }
 
-@keyframes glitch {
-    0% { transform: translate(0); }
-    25% { transform: translate(-2px, 2px); }
-    50% { transform: translate(2px, -2px); }
-    75% { transform: translate(-2px, 2px); }
-    100% { transform: translate(0); }
+@keyframes glitchPulse {
+  0% { transform: skewX(-5deg) scale(1); }
+  25% { transform: skewX(-5deg) scale(1.02) rotate(-1deg); }
+  50% { transform: skewX(-5deg) scale(0.98) rotate(1deg); }
+  75% { transform: skewX(-5deg) scale(1.01) rotate(-0.5deg); }
+  100% { transform: skewX(-5deg) scale(1); }
 }
+
+
 
 
 @media (max-width: 600px) {
