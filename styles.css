@@ -11,34 +11,90 @@ body {
 }
 
 /* Header Styles */
+/* Modern Single-Line Header */
 .site-header {
-  text-align: center;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background: white;
   border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1d4f28;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 25px;
+  margin: 0 20px;
+}
+
+.header-nav a {
+  color: #555;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.header-nav a:hover {
+  color: #3498db;
+}
+
+.header-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icon, .theme-btn {
+  color: #555;
+  font-size: 1rem;
+  transition: all 0.2s;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.social-icon:hover, .theme-btn:hover {
+  color: #3498db;
+  transform: translateY(-1px);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .site-header {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .header-nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0 0;
+    gap: 15px;
+  }
+  
+  .header-actions {
+    margin-left: auto;
+  }
 }
 
 h1 {
   color: #1d4f28;
   margin-bottom: 10px;
   font-size: 5rem;
-}
-
-.contact {
-  color: #666;
-  font-size: 0.9em;
-}
-
-/* Link Styles */
-a {
-  color: #3498db;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #2980b9;
-  text-decoration: underline;
 }
 
 /* Section Styles */
