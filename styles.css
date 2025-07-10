@@ -18,9 +18,10 @@ body {
   background-color: #f5f5f5;
   color: #1e5934;
   line-height: 1.6;
+  /*
   width: 90%; /* Takes 90% of the screen width */
-  max-width: 1600px; /* Optional: Prevents it from getting too wide on large screens */
-  min-height: 90vh; /* Takes 90% of the screen height */
+  /*max-width: 1600px; /* Optional: Prevents it from getting too wide on large screens */
+  /*min-height: 90vh; /* Takes 90% of the screen height */
   margin: 0 auto; /* Centers horizontally */
   padding: 20px;
   text-align: center;
