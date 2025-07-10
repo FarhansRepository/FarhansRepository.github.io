@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
             Math.random() > 0.7 ? chars[Math.floor(Math.random() * chars.length)] : char
         ).join('');
         text.textContent = glitched;
-        setTimeout(() => text.textContent = original, 1000);
+        setTimeout(() => text.textContent = original, 150);
     }
 
     setInterval(glitch, 1000); // glitch every second
