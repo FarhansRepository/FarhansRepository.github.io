@@ -50,7 +50,7 @@ body {
   white-space: nowrap;
 }
 
-.header-nav a:hover, .external-links a:hover {
+.header-name a:hover, .header-nav a:hover, .external-links a:hover {
   color: #FFEA00;
   text-decoration: none;
   /* text-decoration: underline */
