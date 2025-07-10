@@ -10,8 +10,7 @@ body {
   text-align: center;      /* Add this line to center-align all text */
 }
 
-/* Header Styles */
-/* Modern Single-Line Header */
+/* Modern Minimalist Header */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -29,16 +28,14 @@ body {
   font-weight: 600;
   color: #1d4f28;
   margin: 0;
-  flex-shrink: 0;
 }
 
-.header-nav {
+.header-nav, .external-links {
   display: flex;
   gap: 25px;
-  margin: 0 20px;
 }
 
-.header-nav a {
+.header-nav a, .external-links a {
   color: #555;
   font-size: 0.9rem;
   text-decoration: none;
@@ -46,34 +43,23 @@ body {
   white-space: nowrap;
 }
 
-.header-nav a:hover {
+.header-nav a:hover, .external-links a:hover {
   color: #3498db;
+  text-decoration: underline;
 }
-
-.header-actions {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .site-header {
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-  
-  .header-nav {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-    margin: 10px 0 0;
+    flex-direction: column;
     gap: 15px;
+    padding: 15px;
   }
   
-  .header-actions {
-    margin-left: auto;
+  .header-nav, .external-links {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
