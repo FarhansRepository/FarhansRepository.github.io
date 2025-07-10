@@ -56,20 +56,6 @@ body {
   align-items: center;
 }
 
-.social-icon, .theme-btn {
-  color: #555;
-  font-size: 1rem;
-  transition: all 0.2s;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.social-icon:hover, .theme-btn:hover {
-  color: #3498db;
-  transform: translateY(-1px);
-}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
