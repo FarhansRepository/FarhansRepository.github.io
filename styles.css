@@ -58,6 +58,14 @@ body {
 
 /* Add these new styles to your existing CSS file */
 
+.typewriter-text {
+  font-family: monospace;
+  font-size: 2rem;
+  color: #0f0; /* Matrix green */
+  border-right: 3px solid #0f0; /* Cursor effect */
+  white-space: nowrap;
+  overflow: hidden;
+}
 /* Main layout */
 main {
   display: grid;
