@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const element = document.getElementById("typewriter");
-  const words = ["Hello World", "Welcome", "こんにちは", "안녕하세요"];
+  const words = ["Farhan", "Bengali", "こんにちは", "안녕하세요"];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
