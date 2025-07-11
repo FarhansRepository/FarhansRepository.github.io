@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 */
 document.addEventListener("DOMContentLoaded", () => {
-    const text = document.getElementById("text");
+    const text = document.getElementById("name-container");
     if (!text) return;
 
     const original = text.textContent;
