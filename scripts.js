@@ -26,13 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
     
     setInterval(glitch, 1000); //run glitch every 1000 seconds
 });
-*/
+
 document.addEventListener("DOMContentLoaded", () => {
     const text = document.getElementById("name-container");
     if (!text) return;
 
     const original = text.textContent;
     /*const chars = "!@#$%^&*()_+1234567890";*/
+/*
     const chars = "01_#";
     function glitch() {
         const glitched = original.split('').map(char => 
@@ -43,4 +44,40 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     setInterval(glitch, 1000); // glitch every second
+}); */
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Target both name elements
+    const firstName = document.querySelector(".first-name");
+    const lastName = document.querySelector(".last-name");
+    
+    if (!firstName || !lastName) return;
+
+    const originalFirst = firstName.textContent;
+    const originalLast = lastName.textContent;
+    const chars = "01_#";
+    
+    function glitch() {
+        // Glitch first name
+        const glitchedFirst = originalFirst.split('').map(char => 
+            Math.random() > 0.85 ? chars[Math.floor(Math.random() * chars.length)] : char
+        ).join('');
+        
+        // Glitch last name
+        const glitchedLast = originalLast.split('').map(char => 
+            Math.random() > 0.85 ? chars[Math.floor(Math.random() * chars.length)] : char
+        ).join('');
+        
+        // Apply glitch
+        firstName.textContent = glitchedFirst;
+        lastName.textContent = glitchedLast;
+        
+        // Reset after short delay
+        setTimeout(() => {
+            firstName.textContent = originalFirst;
+            lastName.textContent = originalLast;
+        }, 150);
+    }
+
+    setInterval(glitch, 1000); // Glitch every second
 });
