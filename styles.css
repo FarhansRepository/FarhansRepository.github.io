@@ -103,7 +103,6 @@ main {
 /* Description section - right side */
 .content-container {
   padding-left: 40px;
-  font-size: 0.75rem;
   /* border-left: 2px solid #52725b; */
   border-width: 2px;
   border-color: #fff;
@@ -121,6 +120,7 @@ main {
 .content-container p {
   margin-bottom: 20px;
   line-height: 1.6;
+  font-size: .75rem;
 }
 
 /* Responsive design */
