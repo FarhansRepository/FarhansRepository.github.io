@@ -60,9 +60,9 @@ body {
 
 .typewriter-text {
   font-family: monospace;
-  font-size: 2rem;
-  color: #0f0; /* Matrix green */
-  border-right: 3px solid #0f0; /* Cursor effect */
+  font-size: 1rem;
+  color: #fff; /* Matrix green */
+  border-right: 3px solid #fff; /* Cursor effect */
   white-space: nowrap;
   overflow: hidden;
 }
