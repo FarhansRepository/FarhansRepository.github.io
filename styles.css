@@ -88,18 +88,17 @@ main {
 .first-name, .last-name {
   color: #fff;
   margin: 0;
+  align-items: left;
   line-height: 1;
 }
 
 .first-name {
   font-size: 5rem;
-  text-align: left;
   margin-bottom: 10px;
 }
 
 .last-name {
   font-size: 5rem;
-  text-align: left;
   position: relative;
 }
 
