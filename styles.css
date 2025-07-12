@@ -93,26 +93,29 @@ main {
 
 .first-name {
   font-size: 5rem;
+  text-align: left;
   margin-bottom: 10px;
 }
 
 .last-name {
   font-size: 5rem;
+  text-align: left;
   position: relative;
 }
 
 /* Description section - right side */
 .content-container {
   padding-left: 40px;
-  /* border-left: 2px solid #52725b; */
+  /* border-left: 2px solid #52725b;
   border-width: 2px;
   border-color: #fff;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .content-container h2 {
   color: #fff;
-  border-bottom: 2px solid #52725b;
+  /*
+  border-bottom: 2px solid #52725b; */
   padding-bottom: 10px;
   margin-top: 0;
   font-size: 2rem;
