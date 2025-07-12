@@ -123,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
   type();
 });
 
+/*
 document.addEventListener("DOMContentLoaded", () => {
   // Select the site-header element instead of matrixCanvas
   const siteHeader = document.querySelector('.site-header');
