@@ -122,3 +122,44 @@ document.addEventListener("DOMContentLoaded", () => {
   // Start the effect
   type();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+// Simplified version of what they're using
+const canvas = document.getElementById('matrixCanvas');
+const ctx = canvas.getContext('2d');
+
+// Katakana + Latin characters
+const chars = "ফারহানদ";
+
+// Column data
+const fontSize = 18;
+const columns = Math.floor(window.innerWidth / fontSize);
+const drops = Array(columns).fill(1); // Tracks Y positions
+
+function draw() {
+  // Semi-transparent black overlay (creates trails)
+  ctx.fillStyle = 'rgba(29, 79, 40, 1)';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  
+  // Bright green text
+  ctx.fillStyle = '#52725b';
+  ctx.font = `${fontSize}px monospace`;
+
+  drops.forEach((drop, i) => {
+    // Random character
+    const text = chars[Math.floor(Math.random() * chars.length)];
+    
+    // Draw character
+    ctx.fillText(text, i * fontSize, drop * fontSize);
+    
+    // Reset if at bottom + random chance
+    if (drop * fontSize > canvas.height && Math.random() > 0.975) {
+      drops[i] = 0;
+    }
+    drops[i]++;
+  });
+}
+
+// Animation loop
+setInterval(draw, 33); // ~30fps
+});
