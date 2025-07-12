@@ -173,3 +173,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Animation loop
   setInterval(draw, 33); // ~30fps
 });
+*/
