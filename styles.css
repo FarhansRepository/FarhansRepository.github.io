@@ -37,6 +37,7 @@ body {
   margin: 0;
 }
 
+
 .header-nav, .external-links {
   display: flex;
   gap: 25px;
@@ -50,10 +51,21 @@ body {
   white-space: nowrap;
 }
 
-.header-name a:hover, .header-nav a:hover, .external-links a:hover {
+.header-name a:hover, .header-nav a:hover {
   color: #FFEA00;
   text-decoration: none;
   /* text-decoration: underline */
+}
+
+.external-links a {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.external-links a:hover {
+  color: #FFEA00;
+  transform: scale(1.1);
+  transition: transform 0.2s;
 }
 
 /* Add these new styles to your existing CSS file */
