@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
-  let typingSpeed = 100;
+  let typingSpeed = 50;
 
   function type() {
     const currentWord = words[wordIndex];
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Type character
       element.textContent = currentWord.substring(0, charIndex + 1);
       charIndex++;
-      typingSpeed = 100; // Normal speed
+      typingSpeed = 50; 
     }
 
     // Switch between typing/erasing
