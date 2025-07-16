@@ -64,7 +64,7 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   color: #2a3a30;
-  border-right: 3px solid #fff; /* Cursor effect */
+  border-right: 3px solid #2a3a30; /* Cursor effect */
   white-space: nowrap;
   overflow: hidden;
 }
