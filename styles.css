@@ -15,19 +15,20 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 5%;
-  background-color: #2a3a30;
+  background-color: #fff;
   border-width: 1px;
   border-color: #fff;
   border-style: solid;
   position: sticky;
   top: 0;
   z-index: 100;
+  border-radius: 10px;
 }
 
 .header-name {
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
+  color: #2a3a30;
   margin: 0;
 }
 
@@ -55,15 +56,14 @@ body {
 
 .external-links a {
   font-size: 1.2rem;
-  color: white;
+  color: #2a3a30;
 }
 
 
 .typewriter-text {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  /* monospace font family */
   font-size: 1rem;
-  color: #fff; /* Matrix green */
+  color: #2a3a30;
   border-right: 3px solid #fff; /* Cursor effect */
   white-space: nowrap;
   overflow: hidden;
@@ -90,6 +90,7 @@ main {
   color: #fff;
   margin: 0;
   line-height: 1;
+  font-style: italics;
 }
 
 .first-name {
