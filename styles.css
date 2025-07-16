@@ -31,6 +31,8 @@ body {
   font-weight: 600;
   color: #2a3a30;
   margin: 0;
+  flex: 0 0 30%;
+
 }
 
 
@@ -65,9 +67,10 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   color: #2a3a30;
-  border-right: 3px solid #2a3a30; /* Cursor effect */
   white-space: nowrap;
   overflow: hidden;
+  flex: 0 0 30%;
+
 }
 /* Main layout */
 main {
