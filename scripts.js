@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const element = document.getElementById("typewriter");
-  const words = ["farhan's", "him/সে"];
+  const words = ["Farhan's space", "he/him/সে", "বাঙ্গালী-American", "مسلم ملحد", "Comp-Sci", "Learning & building"];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
