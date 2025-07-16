@@ -23,6 +23,7 @@ body {
   top: 0;
   z-index: 100;
   border-radius: 10px;
+  font-weight: bold;
 }
 
 .header-name {
@@ -90,7 +91,7 @@ main {
   color: #fff;
   margin: 0;
   line-height: 1;
-  font-style: italics;
+  font-style: italic;
 }
 
 .first-name {
