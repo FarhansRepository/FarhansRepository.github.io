@@ -23,12 +23,10 @@ body {
   top: 0;
   z-index: 100;
   border-radius: 10px;
-  font-weight: bold;
 }
 
 .header-name {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 0.7rem;
   color: #2a3a30;
   margin: 0;
   flex: 0 0 30%;
@@ -43,7 +41,7 @@ body {
 
 .header-name a, .header-nav a, .external-links a {
   color: #2a3a30;
-  font-size: 1rem;
+  font-size: 0.7rem;
   text-decoration: none;
   transition: color 0.2s;
   white-space: nowrap;
@@ -65,7 +63,7 @@ body {
 
 .typewriter-text {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 0.7rem;
   color: #2a3a30;
   white-space: nowrap;
   overflow: hidden;
