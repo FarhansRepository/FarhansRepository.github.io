@@ -39,7 +39,7 @@ body {
 }
 
 .header-name a, .header-nav a, .external-links a {
-  color: #fff;
+  color: #2a3a30;
   font-size: 1rem;
   text-decoration: none;
   transition: color 0.2s;
