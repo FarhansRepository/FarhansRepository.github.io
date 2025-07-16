@@ -23,7 +23,7 @@ body {
   top: 0;
   z-index: 100;
   border-radius: 10px;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .header-name {
