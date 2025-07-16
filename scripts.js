@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
-  let typingSpeed = 150;
+  let typingSpeed = 100;
 
   function type() {
     const currentWord = words[wordIndex];
@@ -98,12 +98,12 @@ document.addEventListener("DOMContentLoaded", () => {
       // Erase character
       element.textContent = currentWord.substring(0, charIndex - 1);
       charIndex--;
-      typingSpeed = 50; // Faster erase
+      typingSpeed = 10; // Faster erase
     } else {
       // Type character
       element.textContent = currentWord.substring(0, charIndex + 1);
       charIndex++;
-      typingSpeed = 150; // Normal speed
+      typingSpeed = 100; // Normal speed
     }
 
     // Switch between typing/erasing
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (isDeleting && charIndex === 0) {
       isDeleting = false;
       wordIndex = (wordIndex + 1) % words.length; // Loop words
-      typingSpeed = 500; // Pause before next word
+      typingSpeed = 100; // Pause before next word
     }
 
     setTimeout(type, typingSpeed);
