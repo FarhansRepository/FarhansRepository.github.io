@@ -1,7 +1,7 @@
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #1f452c; 
+  background-color: #2a3a30;
   color: #fff;
   margin: 0 auto; /* Centers horizontally */
   padding: 20px;
@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 5%;
-  background: #1f452c;
+  background-color: #2a3a30;
   border-width: 1px;
   border-color: #fff;
   border-style: solid;
@@ -134,7 +134,7 @@ main {
 }
 
 .project-card {
-  background: #1f452c;
+  background-color: #2a3a30;
   border: 1px solid #52725b;
   border-radius: 8px;
   overflow: hidden;
