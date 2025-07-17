@@ -86,6 +86,13 @@ main {
   text-align: left; /* Override body's center alignment */
 }
 
+.projects-page main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 5%;
+}
+
+
 /* Name section - left side */
 .name-container {
   display: flex;
