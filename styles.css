@@ -22,7 +22,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  border-radius: 10px;
   font-weight: bold;
 }
 
@@ -30,7 +29,6 @@ body {
   font-size: 0.7rem;
   background-color: yellow;
   color: black;
-  border-radius: 10px;
 }
 
 .header-name {
