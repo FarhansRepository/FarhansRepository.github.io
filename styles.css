@@ -26,6 +26,12 @@ body {
   font-weight: bold;
 }
 
+.noti {
+  font-size: 0.7 rem;
+  background-color: yellow;
+  color: black;
+}
+
 .header-name {
   font-size: 0.7rem;
   color: #2a3a30;
