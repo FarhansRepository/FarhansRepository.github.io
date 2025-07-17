@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const element = document.getElementById("typewriter");
-  const words = ["FARHAN::SITE", "HE/HIM/সে", "বাঙ্গালী-AMERICAN", "مسلم ملحد", "COMP-SCI GRAD", "LEARNING & BUILDING"];
+  const words = ["FARHAN::SITE", "HE/HIM/সে", "বাঙ্গালী-AMERICAN", "مسلم ملحد", "COMP-SCI GRAD", "JACK OF ALL TRADES"];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
