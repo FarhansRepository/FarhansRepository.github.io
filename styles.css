@@ -346,4 +346,9 @@ main {
   .contact {
     font-size: 0.8em;
   }
+  .first-name, .last-name {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
 }
