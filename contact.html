@@ -3,40 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farhan Mohammad - Contact</title>
-  <link rel="stylesheet" href="styles.css"> 
+  <title>Farhan Mohammad - Projects</title>
+  <link rel="stylesheet" href="styles.css">  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS (for collapse) -->
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-  <header class="site-header">
-    <p class="header-name">
-        <a href="index.html">HOME</a>
-    </p>
+<body class="cont-page">
     
-    <nav class="header-nav">
-      <a href="projects.html">PROJECTS</a>
-      <a href="skills.html">SKILLS</a>
-      <a href="experience.html">EXPERIENCE</a>
-      <a href="contact.html" style="color: #D64E52;">CONTACT</a>
-    </nav>
-    
-    <div class="external-links">
-      <a href="https://github.com/FarhansRepository"><i class="fab fa-github"></i></a>
-      <a href="http://linkedin.com/in/farhanmohammad3933a7266"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </header>
 
-  <main>
-    <h1>Contact</h1>
-    
-    <section>
-      <h2>Contact Info</h2>
-      <p>Email me to this address: farhanzvoc@gmail.com</p>
-      <p>DM me on LinkedIn: <a href="http://linkedin.com/in/farhanmohammad3933a7266"> LinkedIn</a></p>
-      <p>Find me in Jamaica, Queens, NY</p>
-    </section>
-  </main>
+    <main> 
+      <section>
+        <div class="contact-card">
+          <div class="contact-item">
+            <a href="mailto:farhanzvoc@gmail.com"><i class="fas fa-envelope" id="info"> </i>Email</a>
+          </div>
+          <div class="contact-item">
+ 
+            <a href="http://linkedin.com/in/farhanmohammad3933a7266" target="_blank"><i class="fab fa-linkedin" id="info"></i>LinkedIn</a>
+          </div>
+          <div class="contact-item">
+            <a href="https://www.google.com/maps/place/Jamaica,+Queens,+NY" target="_blank" rel="noopener">
+              <i class="fas fa-map-marker-alt" id="info"></i>Jamaica, Queens, NY
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  
+
+
+  
+  <nav class="compact-nav">
+    <a href="index.html">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="projects.html">
+      <i class="fas fa-folder-open"></i>
+      <span>Projects</span>
+    </a>
+    <a href="skills.html">
+      <i class="fas fa-cogs"></i>
+      <span>Skills</span>
+    </a>
+    <a href="experience.html">
+      <i class="fas fa-briefcase"></i>
+      <span>Experience</span>
+    </a>
+    <a href="contact.html">
+      <i class="fas fa-envelope"></i>
+      <span>Contact</span>
+    </a>
+   
+  </nav>
   
   <script src="scripts.js"></script>
 </body>
