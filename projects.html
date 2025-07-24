@@ -6,70 +6,77 @@
   <title>Farhan Mohammad - Projects</title>
   <link rel="stylesheet" href="styles.css">  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS (for collapse) -->
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body class="projects-page">
-  <header class="site-header">
-    <p class="header-name">
-        <a href="index.html">HOME</a>
-    </p>
     
-    <nav class="header-nav">
-      <a href="projects.html" style="color: #D64E52;">PROJECTS</a>
-      <a href="skills.html">SKILLS</a>
-      <a href="experience.html">EXPERIENCE</a>
-      <a href="contact.html">CONTACT</a>
-    </nav>
-    
-     <div class="external-links">
-      <a href="https://github.com/FarhansRepository"><i class="fab fa-github"></i></a>
-      <a href="http://linkedin.com/in/farhanmohammad3933a7266"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </header>
-
-    
-   <main>
+  <main>
    <div class="projects-wrapper"> 
     <div class="projects-container">
       <div class="project-card">
-        <div class="project-image">
-          <img src="https://via.placeholder.com/400x250/52725b/ffffff?text=Schedule+Generator" alt="Dynamic Schedule Generator">
-        </div>
         <div class="project-content">
-          <h2>Dynamic Schedule Generator</h2>
+          <h2>Dynamic Schedule Generator
+            <a href="https://github.com/FarhansRepository" class="project-link" target="_blank"><i class="fa-solid fa-link" id="info"></i></a>
+          </h2>
           <p>Designed a Python-based scheduling program using Tkinter for a GUI to generate optimal schedules based on user-defined constraints.</p>
           <p>Integrated AI through Reinforcement Learning (RL) to adapt scheduling suggestions based on real-time feedback.</p>
-          <a href="https://github.com/FarhansRepository" class="project-link" target="_blank">View on GitHub</a>
         </div>
       </div>
   
       <div class="project-card">
-        <div class="project-image">
-          <img src="https://via.placeholder.com/400x250/52725b/ffffff?text=Relational+Checker" alt="Relational Properties Checker">
-        </div>
         <div class="project-content">
-          <h2>Relational Properties Checker</h2>
+          <h2>Relational Properties Checker
+            <a href="https://github.com/FarhansRepository" class="project-link" target="_blank"><i class="fa-solid fa-link" id="info"></i></a>
+          </h2>
           <p>Designed an interactive web tool used by 30+ students to analyze and validate 10+ mathematical properties of relations.</p>
           <p>Reduced manual validation time by 70% through dynamic matrix processing and visual feedback.</p>
-          <a href="https://github.com/FarhansRepository" class="project-link" target="_blank">View on GitHub</a>
         </div>
       </div>
   
       <div class="project-card">
-        <div class="project-image">
-          <img src="https://via.placeholder.com/400x250/52725b/ffffff?text=News+Explorer" alt="API News Explorer">
-        </div>
         <div class="project-content">
-          <h2>API News Explorer</h2>
+          <h2>API News Explorer 
+            <a href="https://github.com/FarhansRepository" class="project-link" target="_blank"><i class="fa-solid fa-link" id="info"></i></a>
+          </h2>
           <p>Built a responsive web app that allows users to perform API-driven searches across 5+ news platforms using custom parameters.</p>
           <p>Decreased redundant API calls by 40% through efficient query handling and result caching logic.</p>
-          <a href="https://github.com/FarhansRepository" class="project-link" target="_blank">View on GitHub</a>
+          
         </div>
       </div>
     </div>
    </div>
   </main>
   
+  
+  <nav class="compact-nav">
+    <a href="index.html">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="projects.html">
+      <i class="fas fa-folder-open"></i>
+      <span>Projects</span>
+    </a>
+    <a href="skills.html">
+      <i class="fas fa-cogs"></i>
+      <span>Skills</span>
+    </a>
+    <a href="experience.html">
+      <i class="fas fa-briefcase"></i>
+      <span>Experience</span>
+    </a>
+    <a href="contact.html">
+      <i class="fas fa-envelope"></i>
+      <span>Contact</span>
+    </a>
+   
+  </nav>
+  
   <script src="scripts.js"></script>
 </body>
 </html>
+
