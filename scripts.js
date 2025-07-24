@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const element = document.getElementById("typewriter");
-  const words = ["AM FARHAN", "AM বাঙ্গালী - AMERICAN", "AM مسلم ملحد", "HAVE A B.S. in COMP-SCI", "ENJOY LEARNING AND BUILDING THINGS" ];
+  const words = ["AM FARHAN", "AM বাঙ্গালী - AMERICAN", "AM مسلم ملحد", "HAVE A B.S. in COMP-SCI", "ENJOY LEARNING AND BUILDING THINGS"];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
