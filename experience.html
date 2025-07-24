@@ -3,63 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farhan Mohammad - Experience</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Farhan Mohammad - Projects</title>
+  <link rel="stylesheet" href="styles.css">  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS (for collapse) -->
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-  <header class="site-header">
-   <p class="header-name">
-        <a href="index.html">HOME</a>
-    </p>
+<body class="exp-page">
     
-    <nav class="header-nav">
-      <a href="projects.html">PROJECTS</a>
-      <a href="skills.html">SKILLS</a>
-      <a href="experience.html" style="color: #D64E52;">EXPERIENCE</a>
-      <a href="contact.html">CONTACT</a>
-    </nav>
-    
-   <div class="external-links">
-      <a href="https://github.com/FarhansRepository"><i class="fab fa-github"></i></a>
-      <a href="http://linkedin.com/in/farhanmohammad3933a7266"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </header>
-
   <main>
-    <h1>Experience</h1>
-    
     <section>
       <h2>Work Experience</h2>
-      <h3>Data Analyst | Stride, Inc.</h3>
-      <p><em>May 2024 - September 2024</em></p>
-      <ul>
-        <li> Automated SQL data extraction and Python-based cleaning for datasets exceeding 1M rows, ensuring 99.9% accuracy in financial and operational reports. </li>
-        <li> Generated 25+ actionable reports for stakeholders, reducing data retrieval time by 40% and supporting data-driven decision-making. </li>
-        <li>Collaborated with accounting and operations teams to analyze KPIs, improving operational efficiency by 15% through visualized insights. </li>
-        <li>Led a team of 3 analysts to streamline reporting workflows, reducing turnaround time for stakeholder requests by 30%. </li>
-      </ul>
-
-      <h3>Cybersecurity Support Analyst | Collabera</h3>
-      <p><em>March 2023 - September 2023</em></p>
-      <ul>
-        <li>Conducted vulnerability scans (Nessus, Qualys) and basic penetration testing under supervision, documenting 50+ CVEs for remediation, reducing system risks by 20%. </li>
-        <li>Assisted SOC in implementing Cisco ASA firewall rules, blocking 15+ malicious IPs/month and maintaining 99.9% uptime during DDoS mitigation drills.</li>
-        <li>Supported NIST SP 800-53 compliance audits, reviewing patch status (WSUS) and user access controls (Active Directory), improving compliance by 30%. </li> 
-        <li> Created technical documentation for security processes and system architectures, including network diagrams and compliance reports. </li>
-        <li> Automated log analysis (Splunk) for SIEM alerts, reducing incident response time by 25% for brute-force attacks and malware incidents.</li>
-      </ul>
+      
+      <div class="resume-entry">
+        <div class="resume-header">
+          <h3>Data Analyst | Stride, Inc.</h3>
+          <span class="resume-date">May 2024 - September 2024</span>
+        </div>
+        <ul>
+          <li> Automated SQL data extraction and Python-based cleaning for datasets exceeding 1M rows, ensuring 99.9% accuracy in financial and operational reports. </li>
+          <li> Generated 25+ actionable reports for stakeholders, reducing data retrieval time by 40% and supporting data-driven decision-making. </li>
+          <li>Collaborated with accounting and operations teams to analyze KPIs, improving operational efficiency by 15% through visualized insights. </li>
+          <li>Led a team of 3 analysts to streamline reporting workflows, reducing turnaround time for stakeholder requests by 30%. </li>
+        </ul>
+      </div>
+    
+      <div class="resume-entry">
+        <div class="resume-header">
+          <h3>Cybersecurity Support Analyst | Collabera</h3>
+          <span class="resume-date">March 2023 - September 2023</span>
+        </div>
+        <ul>
+          <li>Conducted vulnerability scans (Nessus, Qualys) and basic penetration testing under supervision, documenting 50+ CVEs for remediation, reducing system risks by 20%. </li>
+          <li>Assisted SOC in implementing Cisco ASA firewall rules, blocking 15+ malicious IPs/month and maintaining 99.9% uptime during DDoS mitigation drills.</li>
+          <li>Supported NIST SP 800-53 compliance audits, reviewing patch status (WSUS) and user access controls (Active Directory), improving compliance by 30%. </li> 
+          <li>Created technical documentation for security processes and system architectures, including network diagrams and compliance reports. </li>
+          <li>Automated log analysis (Splunk) for SIEM alerts, reducing incident response time by 25% for brute-force attacks and malware incidents.</li>
+        </ul>
+      </div>
     </section>
-
+    
     <section>
       <h2>Education</h2>
-      <h3>Fordham University</h3>
-      <p><em>Bachelor of Science in Computer Science</em></p>
-      <p>August 2021 - May 2025 | GPA: 3.946</p>
-      <p>Honors: Summa Cum Laude, Dean's List</p>
+      <div class="resume-entry">
+        <div class="resume-header">
+          <h3>Fordham University</h3>
+          <span class="resume-date">August 2021 - May 2025</span>
+        </div>
+        <p>Bachelor of Science in Computer Science</p>
+        <p>GPA: 3.946</p>
+        <p>Honors: Summa Cum Laude, Dean's List</p>
+      </div>
     </section>
   </main>
+  
+
+
+  
+  <nav class="compact-nav">
+    <a href="index.html">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="projects.html">
+      <i class="fas fa-folder-open"></i>
+      <span>Projects</span>
+    </a>
+    <a href="skills.html">
+      <i class="fas fa-cogs"></i>
+      <span>Skills</span>
+    </a>
+    <a href="experience.html">
+      <i class="fas fa-briefcase"></i>
+      <span>Experience</span>
+    </a>
+    <a href="contact.html">
+      <i class="fas fa-envelope"></i>
+      <span>Contact</span>
+    </a>
+   
+  </nav>
   
   <script src="scripts.js"></script>
 </body>
