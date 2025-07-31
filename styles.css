@@ -286,7 +286,7 @@ EXP EXP EXP EXP EXP EXP EXP EXP EXP EXP EXP EXP */
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.4); /* Adjust 0.7 for more/less transparency */
+  background: rgba(255,255,255,0.5); /* Adjust 0.7 for more/less transparency */
   z-index: 1;
   pointer-events: none;
 }
