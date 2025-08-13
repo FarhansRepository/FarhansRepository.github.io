@@ -239,6 +239,9 @@ EXP EXP EXP EXP EXP EXP EXP EXP EXP EXP EXP EXP */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: #000000;
 }
 
 
